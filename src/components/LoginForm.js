@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Form, Input, Icon, Button, Alert } from 'antd';
+import { Form, Input, Button, Alert } from '@ant-design/compatible';
+import Icon from '@ant-design/icons';
+
 import { connect } from "react-redux";
 import { login, logout } from "../actions/authAction";
 
